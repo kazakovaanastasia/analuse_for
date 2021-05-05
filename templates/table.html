@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result table</title>
+    <link rel="stylesheet" type ="text/css" href= "/static/nude.css/">
+</head>
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="btn btn-warning" href="/create">Create</a>
+        <a class="p-2 text-dark" href="/post">Posts</a>
+        <a class="p-2 text-dark" href="#">Support</a>
+        <a class="p-2 text-dark" href="#">Pricing</a>
+      </nav>
+      <a class="btn btn-outline-primary" href="#">Sign up</a>
+    </div>
+    <h1>Таблиddлллdчка</h1>
+    <table>
+        <thead>
+        <tr><td>number</td><td>topic</td><td>message_amount</td><td>collborators</td></tr>
+        <link rel="stylesheet" type ="text/css" href= "/static/nude.css/">
+
+        </thead>
+        <tbody>
+        {%  for a in out %}
+        <tr>
+            <td>{{ a[0] }}</td>
+            <td>{{ a[1] }}</td>
+            <td>{{ a[2] }}</td>
+            <td>{{ a[3] }}</td>
+
+
+        </tr>
+        {% endfor %}
+        <link rel="stylesheet" type ="text/css" href= "/static/nude.css/">
+
+        </tbody>
+    </table>
+    <h1>AVERage{{ av }}</h1>
+</body>
+</html>
