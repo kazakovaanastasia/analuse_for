@@ -1,0 +1,24 @@
+body{
+    font-family: Chilanka;
+    background-color: lightcyan;
+    color: darkblue;
+}
+
+h1{
+    font-family: Chilanka;
+    color: darkslateblue;
+}
+
+thead td{
+    font-weight: inherit;
+    border-bottom: 2pt;
+    border-bottom-color: darkslategray;
+}
+
+tbody tr:nth-child(odd){
+    background-color: aqua;
+}
+
+tbody tr:nth-child(even){
+    background-color: salmon;
+}
