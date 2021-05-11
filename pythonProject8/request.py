@@ -84,7 +84,11 @@ def page_info(arr):
     for i in arr:
         count+=1
         amount+=i[2]
-    av_num=amount/count
+    if count > 0:
+        av_num=amount/count
+    else:
+        av_num=0
+
     return av_num
 
 def page_name(arr):
