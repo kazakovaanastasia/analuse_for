@@ -1,9 +1,0 @@
-requests
-bs4.BeautifulSoup as bs
-flask.Flask, 
-flask.render_template
-flask.request
-flask.redirect
-sqlalchemy
-flask_sqlalchemy.SQLAlchemy
-typing.Callable
